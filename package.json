@@ -24,6 +24,14 @@
   ],
   "author": "ziwei_iztro-mcpserver",
   "license": "MIT",
+  "homepage": "https://github.com/smogievogie/ziwei_iztro-mcpserver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smogievogie/ziwei_iztro-mcpserver.git"
+  },
+  "bugs": {
+    "url": "https://github.com/smogievogie/ziwei_iztro-mcpserver/issues"
+  },
   "dependencies": {
     "iztro": "^2.5.3",
     "@modelcontextprotocol/sdk": "^1.17.0",
@@ -41,6 +49,8 @@
     "README.md",
     "LICENSE",
     "iztro-mcp-config.example.json",
-    ".env.example"
+    ".env.example",
+    "icon.svg",
+    "favicon.svg"
   ]
 }
