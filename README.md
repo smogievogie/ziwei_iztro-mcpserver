@@ -1,17 +1,11 @@
-<div align="center">
-  <img src="./icon.svg" alt="iztro MCP Server Logo" width="128" height="128">
-  
-  # iztro MCP 服务器
-  
-  [![npm version](https://badge.fury.io/js/ziwei_iztro-mcpserver.svg)](https://badge.fury.io/js/ziwei_iztro-mcpserver)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  [![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
-  [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
-  
-  **基于 [iztro](https://github.com/SylarLong/iztro) 的模型上下文协议 (MCP) 服务器**
-  
-  *生成紫微斗数星盘，支持地理编码和真太阳时转换*
-</div>
+# iztro MCP 服务器
+
+[![npm version](https://badge.fury.io/js/ziwei_iztro-mcpserver.svg)](https://badge.fury.io/js/ziwei_iztro-mcpserver)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen)](https://nodejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue)](https://www.typescriptlang.org/)
+
+基于 [iztro](https://github.com/SylarLong/iztro) 的模型上下文协议 (MCP) 服务器 - 生成紫微斗数星盘，支持地理编码和真太阳时转换。
 
 ## ✨ 功能特性
 
@@ -25,8 +19,16 @@
 
 ### 安装
 
+#### 全局安装（推荐）
+
 ```bash
 npm install -g ziwei_iztro-mcpserver
+```
+
+#### 本地安装
+
+```bash
+npm i ziwei_iztro-mcpserver
 ```
 
 ### 配置
