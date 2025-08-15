@@ -168,7 +168,7 @@ npm start
 
 ```bash
 # 克隆仓库
-git clone <https://github.com/smogievogie/ziwei_iztro-mcpserver>
+git clone https://github.com/smogievogie/ziwei_iztro-mcpserver.git
 cd ziwei_iztro-mcpserver
 
 # 安装依赖
@@ -238,9 +238,9 @@ npx @modelcontextprotocol/inspector node dist/index.js
 
 ## 📞 支持
 
-- **问题反馈**: [GitHub Issues](https://github.com/your-repo/issues)
-- **讨论**: [GitHub Discussions](https://github.com/your-repo/discussions)
-- **文档**: [项目Wiki](https://github.com/your-repo/wiki)
+- **问题反馈**: [GitHub Issues](https://github.com/smogievogie/ziwei_iztro-mcpserver/issues)
+- **讨论**: [GitHub Discussions](https://github.com/smogievogie/ziwei_iztro-mcpserver/discussions)
+- **文档**: [项目Wiki](https://github.com/smogievogie/ziwei_iztro-mcpserver/wiki)
 
 ---
 
