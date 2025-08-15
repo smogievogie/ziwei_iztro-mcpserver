@@ -1,0 +1,6 @@
+{
+  "amapApiKey": "your_amap_api_key_here",
+  "geocodeProvider": "amap",
+  "timeout": 5000,
+  "retryAttempts": 3
+}

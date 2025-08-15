@@ -1,0 +1,46 @@
+{
+  "name": "ziwei_iztro-mcpserver",
+  "version": "1.0.0",
+  "description": "MCP server for iztro - a lightweight kit for generating astrolabes for Zi Wei Dou Shu",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ziwei_iztro-mcpserver": "./bin/start.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "setup": "node scripts/setup.js",
+    "postinstall": "node scripts/setup.js",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "iztro",
+    "mcp",
+    "ziweidoushu",
+    "紫微斗数",
+    "astrology"
+  ],
+  "author": "ziwei_iztro-mcpserver",
+  "license": "MIT",
+  "dependencies": {
+    "iztro": "^2.5.3",
+    "@modelcontextprotocol/sdk": "^1.17.0",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "bin/**/*",
+    "scripts/**/*",
+    "README.md",
+    "LICENSE",
+    "iztro-mcp-config.example.json",
+    ".env.example"
+  ]
+}
